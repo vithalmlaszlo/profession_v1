@@ -7026,12 +7026,6 @@ a.text-dark:hover, a.text-dark:focus {
 =================================================================*/
 html {
   font-size: 62.5%; }
-  @media only screen and (max-width: 768px) {
-    html {
-      font-size: 55%; } }
-  @media only screen and (max-width: 576px) {
-    html {
-      font-size: 50%; } }
 
 /* ==============================================================
                         BASIC ++
@@ -7046,11 +7040,10 @@ html, body {
       overflow-x: hidden; } }
 
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px; }
 
-/* ========================================================
-                      HELPER
-  ========================================================*/
 section {
   height: 100vh;
   margin-bottom: 50px; }
@@ -7076,18 +7069,6 @@ section {
   @media only screen and (max-width: 576px) {
     .slide-5 {
       background-image: url(../img/slide-5-BG-mobil.png); } }
-
-h1 {
-  color: black;
-  text-transform: uppercase;
-  font-size: 5rem;
-  font-weight: 800;
-  display: inline-block; }
-
-h3 {
-  color: #4a58a2;
-  font-size: 20px;
-  font-weight: 600; }
 
 /* ========================================================
                       HEADER
@@ -7126,19 +7107,6 @@ h3 {
   margin: 0;
   bottom: 0; }
 
-.header__btn {
-  margin: 0;
-  background: #FF2E63;
-  font-size: 11.65px;
-  color: #FFFFFF;
-  font-weight: 600;
-  height: 35px;
-  width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 3px; }
-
 .small {
   transition: all 0.3s; }
 
@@ -7147,29 +7115,105 @@ h3 {
   display: none;
   margin: 0; }
 
+h1 {
+  font-size: 20px;
+  font-weight: 700; }
+  @media only screen and (max-width: 576px) {
+    h1 {
+      font-size: 16px; } }
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4a58a2; }
+  @media only screen and (max-width: 576px) {
+    h2 {
+      font-size: 16px; } }
+
+h3 {
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 0; }
+  @media only screen and (max-width: 576px) {
+    h3 {
+      font-size: 16px; } }
+
+h4 {
+  font-size: 20px;
+  font-weight: 400; }
+  @media only screen and (max-width: 576px) {
+    h4 {
+      font-size: 16px; } }
+
+@media only screen and (max-width: 576px) {
+  p {
+    font-size: 14px; } }
+
+.p-light {
+  font-size: 10px; }
+
+.header__btn {
+  margin: 0;
+  background: #ff2e63;
+  font-size: 11.65px;
+  color: #ffffff;
+  font-weight: 800;
+  height: 35px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px; }
+
+.slider-btn {
+  background: #4b5aa0;
+  width: 180px;
+  height: 50px;
+  font-size: 11.65px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.slider-red-btn {
+  background: #ff2e63;
+  width: 260px;
+  height: 50px;
+  font-size: 11.65px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none !important; }
+
 .slide-2 {
   background-image: url(../img/slide-2-BG.png);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   @media only screen and (max-width: 576px) {
     .slide-2 {
       background-image: url(../img/slide-2-BG-mobil.png); } }
   .slide-2__background {
     background: white;
     opacity: 0.85;
-    min-width: 310px; }
+    max-width: 330px;
+    border-radius: 5px; }
   .slide-2__icon-big {
-    margin: 30px 0;
-    width: 50px; }
-  .slide-2__icon-small {
-    width: 20px; }
+    margin: 0 0 30px 0; }
+  .slide-2__h4 {
+    margin-bottom: 70px; }
 
 @media only screen and (max-width: 768px) {
   .textbox {
     justify-content: center; } }
+
+.textbox-p {
+  margin-left: 40px; }
 
 .slide-3 {
   background-image: url(../img/slide-3-BG.png);
@@ -7181,3 +7225,13 @@ h3 {
   @media only screen and (max-width: 576px) {
     .slide-3 {
       background-image: url(../img/slide-3-BG-mobil.png); } }
+
+.slide-5__background {
+  background: white;
+  opacity: 0.85;
+  min-width: 572px;
+  border-radius: 5px; }
+
+@media only screen and (max-width: 768px) {
+  .textbox-big {
+    justify-content: center; } }

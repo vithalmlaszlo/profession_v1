@@ -1,0 +1,15 @@
+.slide-5 {
+
+  &__background {
+    background: white;
+    opacity: 0.85;
+    min-width: 572px;
+    border-radius: 5px;
+  }
+}
+
+.textbox-big {
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}

@@ -1,36 +1,41 @@
 .slide-2 {
-    background-image: url(../img/slide-2-BG.png);
-    background-position: right, center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+  background-image: url(../img/slide-2-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 
-    @media only screen and (max-width: 576px) {
-      background-image:url(../img/slide-2-BG-mobil.png) 
- }
+  @media only screen and (max-width: 576px) {
+    background-image: url(../img/slide-2-BG-mobil.png);
+  }
 
- &__background {
-  background: white;
-  opacity: 0.85;
-  min-width: 310px;
- 
+  &__background {
+    background: white;
+    opacity: 0.85;
+    max-width: 330px;
+    border-radius: 5px;
+
+  }
+
+  &__icon-big {
+    margin: 0 0 30px 0;
+  }
+
+  &__h4 {
+    margin-bottom: 70px;
+
+  }
+
 }
 
-
- &__icon-big{
-   margin: 30px 0;
-    width: 50px;
- }
-
- &__icon-small{
-   width: 20px;
- }
-   
+.textbox {
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
   }
+}
 
-  .textbox {
-    @media only screen and (max-width: 768px) {
-      justify-content: center;
-    }
-  }
+.textbox-p {
+  margin-left: 40px;
+}
