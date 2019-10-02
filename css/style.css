@@ -7046,34 +7046,36 @@ html, body {
       overflow-x: hidden; } }
 
 body {
-  font-family: 'Advent Pro', sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  background-color: rgba(216, 216, 216, 0.253); }
+  font-family: 'Montserrat', sans-serif; }
 
 /* ========================================================
                       HELPER
   ========================================================*/
 section {
-  height: 100vh; }
+  height: 100vh;
+  margin-bottom: 50px; }
 
-.pink {
-  background-image: linear-gradient(135deg, #3023AE 0%, #DCECFF 33%, #B4EC51 100%); }
+.slide-4 {
+  background-image: url(../img/slide-4-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .slide-4 {
+      background-image: url(../img/slide-4-BG-mobil.png); } }
 
-.grey {
-  background-image: linear-gradient(135deg, #23AEA7 0%, #DCECFF 33%, #EC5169 100%); }
-
-.blue {
-  background-image: linear-gradient(135deg, #2423AE 0%, #DCECFF 33%, #ECB151 100%); }
-
-.yellow {
-  background-image: linear-gradient(135deg, #AEA523 0%, #DCECFF 33%, #77EC51 100%); }
-
-.orangered {
-  background-image: linear-gradient(135deg, #23AEA7 0%, #DCECFF 33%, #EC5169 100%); }
-
-.red {
-  background: white; }
+.slide-5 {
+  background-image: url(../img/slide-5-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .slide-5 {
+      background-image: url(../img/slide-5-BG-mobil.png); } }
 
 h1 {
   color: black;
@@ -7081,6 +7083,11 @@ h1 {
   font-size: 5rem;
   font-weight: 800;
   display: inline-block; }
+
+h3 {
+  color: #4a58a2;
+  font-size: 20px;
+  font-weight: 600; }
 
 /* ========================================================
                       HEADER
@@ -7091,8 +7098,9 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%; }
-  @media only screen and (max-width: 992px) {
+  width: 100%;
+  margin-bottom: 50px; }
+  @media only screen and (max-width: 576px) {
     .header {
       background-image: url(../img/var-egy-lakas-mobil.png); } }
 
@@ -7106,7 +7114,8 @@ h1 {
   left: 0;
   width: 100%;
   height: 70px;
-  background-color: white; }
+  background-color: white;
+  z-index: 999; }
 
 .container__bottom {
   position: absolute;
@@ -7120,10 +7129,9 @@ h1 {
 .header__btn {
   margin: 0;
   background: #FF2E63;
-  font-family: Montserrat-Bold;
   font-size: 11.65px;
   color: #FFFFFF;
-  font-weight: 300;
+  font-weight: 600;
   height: 35px;
   width: 180px;
   display: flex;
@@ -7138,3 +7146,38 @@ h1 {
   transition: all 0.3s;
   display: none;
   margin: 0; }
+
+.slide-2 {
+  background-image: url(../img/slide-2-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .slide-2 {
+      background-image: url(../img/slide-2-BG-mobil.png); } }
+  .slide-2__background {
+    background: white;
+    opacity: 0.85;
+    min-width: 310px; }
+  .slide-2__icon-big {
+    margin: 30px 0;
+    width: 50px; }
+  .slide-2__icon-small {
+    width: 20px; }
+
+@media only screen and (max-width: 768px) {
+  .textbox {
+    justify-content: center; } }
+
+.slide-3 {
+  background-image: url(../img/slide-3-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .slide-3 {
+      background-image: url(../img/slide-3-BG-mobil.png); } }

@@ -11,8 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
         rel="stylesheet">
-<!--     <link rel="stylesheet" href="./animate.css">-->    
+    <!--     <link rel="stylesheet" href="./animate.css">-->
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
 </head>
 
@@ -21,9 +22,9 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <div class="header__container">
+        <div class="header__container d-flex align-items-center">
             <div class="container">
-                <div class="row d-flex align-items-center pt-3">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-3 col-6">
                         <a href="#" class="header__logo "><img class="" src="/img/profession-logo.png"
                                 alt="profession-logo" /></a>
@@ -34,7 +35,9 @@
                         <p class="proba-3">proba négy</p>
                     </div>
                     <div class="col-md-3 col-6 d-flex ">
-                        <p class="header__btn">FELIRATKOZOM</p>
+                        <a href="#">
+                            <p class="header__btn">FELIRATKOZOM</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -42,19 +45,45 @@
         </div>
     </header>
 
-    <section id="pink" class="pink d-flex align-items-center justify-content-center">
-        <h1 class=" mt-5 p-3  text-center wow slideInLeft">Pink </h1>
+    <section id="slide-2" class="slide-2 d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="textbox row d-flex ">
+                <div class="slide-2__background text-center m-5 wow fadeInLeft p-5">
+
+                    <img class="slide-2__icon-big " src="./img/icon-big.png" alt="">
+                    <h3 class="text-left">Budapestre költöznél? </h3>
+                    <div class="d-flex">
+                        <img class="slide-2__icon-small" src="./img/icon-small.png" alt="">
+                        <h4>LAKÁS</h4>
+                    </div>
+                    <p class="text-left">Kell egy budapesti lakás ahová beköltözhetsz!</p>
+                    <div class="d-flex">
+                        <img class="slide-2__icon-small" src="./img/icon-small.png" alt="">
+                        <h4>LAKÁS</h4>
+                    </div>
+                    <p class="text-left">Kell egy budapesti lakás ahová beköltözhetsz!</p>
+                    <div class="d-flex">
+                        <img class="slide-2__icon-small" src="./img/icon-small.png" alt="">
+                        <h4>LAKÁS</h4>
+                    </div>
+                    <p class="text-left">Kell egy budapesti lakás ahová beköltözhetsz!</p>
+                    <a href=""><button class="btn">GOMB</button></a>
+                </div>
+            </div>
+        </div>
+
+
     </section>
-    <section id="blue" class="blue d-flex align-items-center justify-content-center">
+    <section id="slide-3" class="slide-3 d-flex align-items-center justify-content-center">
         <h1 class=" p-3  text-center wow slideInLeft">Blue
         </h1>
 
     </section>
-    <section id="yellow" class="yellow d-flex align-items-center justify-content-center">
+    <section id="slide-4" class="slide-4 d-flex align-items-center justify-content-center">
         <h1 class="  p-3  text-center wow slideInLeft">Yellow </h1>
 
     </section>
-    <section id="grey" class="grey d-flex align-items-center justify-content-center">
+    <section id="slide-5" class="slide-5 d-flex align-items-center justify-content-center">
         <h1 class="  p-3  text-center wow slideInLeft">Grey </h1>
 
     </section>

@@ -2,7 +2,7 @@
                         MEDIA-QUERIES
 =================================================================*/
 html {
-  font-size: 62.5%; //1 rem = 10px; 10px/16px =62.5%;
+  font-size: 62.5%; 
 
   @media only screen and (max-width: 768px) {
     font-size: 55%;
@@ -20,39 +20,17 @@ html {
 html,body{
     margin: 0px;
     padding: 0px;
-   overflow-x: visible; 
+    overflow-x: visible; 
 
     @media only screen and (max-width: 576px) {
-         overflow-x: hidden; 
+      overflow-x: hidden; 
     }
 }  
 
 body {
-    font-family: 'Advent Pro', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    background-color: rgba(216, 216, 216, 0.253);
+  font-family: 'Montserrat', sans-serif;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ========================================================
@@ -60,34 +38,35 @@ body {
   ========================================================*/
   section {
     height: 100vh;
+    margin-bottom: 50px;
   }
   
-  .pink {
-    background-image: linear-gradient(135deg, #3023AE 0%, #DCECFF 33%, #B4EC51 100%);
-   
-  }
-  
-  .grey {
-    background-image: linear-gradient(135deg, #23AEA7 0%, #DCECFF 33%, #EC5169 100%);
-  }
-  
-  .blue {
-    background-image: linear-gradient(135deg, #2423AE 0%, #DCECFF 33%, #ECB151 100%);
+  .slide-4 {
+    background-image: url(../img/slide-4-BG.png);
+    background-position: right, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    @media only screen and (max-width: 576px) {
+      background-image:url(../img/slide-4-BG-mobil.png) 
+ }
     
   }
   
-  .yellow {
-    background-image: linear-gradient(135deg, #AEA523 0%, #DCECFF 33%, #77EC51 100%);
-  }
+  .slide-5 {
+    background-image: url(../img/slide-5-BG.png);
+    background-position: right, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 
-  .orangered {
-    background-image: linear-gradient(135deg, #23AEA7 0%, #DCECFF 33%, #EC5169 100%);
+    @media only screen and (max-width: 576px) {
+      background-image:url(../img/slide-5-BG-mobil.png) 
+ }
   }
-
-  .red {
-    background: white;
-  }
-  
   
   h1 {
     color: black;
@@ -96,4 +75,10 @@ body {
     font-weight: 800;
     display: inline-block;
   
+  }
+
+  h3 {
+    color: #4a58a2;
+    font-size: 20px;
+    font-weight: 600;
   }

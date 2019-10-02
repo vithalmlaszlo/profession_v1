@@ -1,11 +1,11 @@
 {
-  "name": "sport-web",
+  "name": "Profession",
   "version": "1.0.0",
   "description": "SPORT_WEB",
   "main": "index.js",
   "scripts": {
     "watch.sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server --browser='Google Chrome'",
+    "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch.sass",
     "compile.sass": "node-sass sass/main.scss css/style.comp.css",
     "concat.css": "concat -o css/style.concat.css css/style.comp.css css/normalize.css css/animate.css",
@@ -25,7 +25,6 @@
     "postcss-cli": "^6.1.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
-    "start": "^5.1.0"
+    "jquery": "^3.4.1"
   }
 }

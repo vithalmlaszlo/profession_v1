@@ -8,8 +8,9 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    margin-bottom:50px;
 
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 576px) {
       background-image:url(../img/var-egy-lakas-mobil.png) 
  }
 
@@ -28,6 +29,7 @@
     width: 100%;
     height: 70px;
     background-color: white;
+    z-index: 999;
   }
   
   .container__bottom {
@@ -44,10 +46,9 @@
   .header__btn {
     margin:0;
     background: #FF2E63;
-    font-family: Montserrat-Bold;
     font-size: 11.65px;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 600;
     height: 35px;
     width: 180px;
     display: flex;
@@ -55,9 +56,6 @@
     justify-content: center;
     border-radius: 3px;
   }
-  
-  
-  
   
   .small {
     transition: all 0.3s;
