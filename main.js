@@ -14,7 +14,7 @@
   ========================================================*/
   /* A menu tulajdonságaink a megváltoztatása  egy-egy section-ban  */
   var top1 = $('#pink').offset().top - 200;
-  var top2 = $('#blue').offset().top - 50;
+  var top2 = $('#blue').offset().top - 200;
   var top3 = $('#yellow').offset().top - 200;
   var top4 = $('#grey').offset().top - 200;
 
