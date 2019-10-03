@@ -23,6 +23,9 @@
     var scrollPos = $(document).scrollTop();
     if (scrollPos <= top2) {
       $('.proba').css('display', 'none');
+      $('.proba-circle-1').css('display', 'none');
+      $('.proba-circle-2').css('display', 'none');
+
       $('.proba-2').css('display', 'none');
       $('.proba-3').css('display', 'none');
 
@@ -30,15 +33,23 @@
     
     } else if (scrollPos >= top2 && scrollPos <= top3) {
       $('.proba').css('display', 'block');
+      $('.proba-circle-1').css('display', 'block');
+      $('.proba-circle-2').css('display', 'block');
+
       $('.proba-2').css('display', 'none');
       $('.proba-3').css('display', 'none');
 
     } else if (scrollPos >= top3 && scrollPos <= top4) {
       $('.proba-2').css('display', 'block');
       $('.proba-3').css('display', 'none');
+      $('.proba-circle-1').css('display', 'none');
+      $('.proba-circle-2').css('display', 'none');
       
 
     } else if (scrollPos >= top4) {
       $('.proba-3').css('display', 'block');
+      $('.proba-circle-1').css('display', 'none');
+      $('.proba-circle-2').css('display', 'none');
+      $('.proba-circle-3').css('display', 'none');
     }
   }); 

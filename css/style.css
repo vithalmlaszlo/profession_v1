@@ -7110,6 +7110,15 @@ section {
 .small {
   transition: all 0.3s; }
 
+.proba-circle-1-right {
+  margin-right: 100px !important; }
+
+.proba-circle-2-right {
+  margin-right: 130px !important; }
+
+.proba-circle-3-right {
+  margin-right: 68px !important; }
+
 .proba, .proba-2, .proba-3 {
   transition: all 0.3s;
   display: none;
