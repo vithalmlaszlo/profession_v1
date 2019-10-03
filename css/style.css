@@ -7044,9 +7044,24 @@ body {
   font-weight: 300;
   font-size: 16px; }
 
+#pink {
+  height: 100vh;
+  margin-bottom: 50px; }
+
 section {
   height: 100vh;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 768px) {
+    section {
+      margin-bottom: 0; } }
+
+#red {
+  height: auto; }
+
+#myDIV {
+  display: none;
+  margin-top: 100px;
+  padding-top: 90px; }
 
 .slide-4 {
   background-image: url(../img/slide-4-BG.png);
@@ -7148,6 +7163,9 @@ h3 {
     h3 {
       font-size: 16px; } }
 
+.h3-small {
+  font-size: 13px; }
+
 h4 {
   font-size: 20px;
   font-weight: 400; }
@@ -7169,7 +7187,7 @@ h4 {
   color: #ffffff;
   font-weight: 800;
   height: 35px;
-  width: 180px;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7193,6 +7211,15 @@ h4 {
   font-weight: 800;
   text-transform: uppercase; }
 
+.slider-blue-btn {
+  background: #4b5aa0;
+  width: 320px;
+  height: 50px;
+  font-size: 11.65px;
+  color: #ffffff;
+  font-weight: 800;
+  text-transform: uppercase; }
+
 a {
   text-decoration: none !important; }
 
@@ -7210,7 +7237,7 @@ a {
   .slide-2__background {
     background: white;
     opacity: 0.85;
-    max-width: 330px;
+    min-width: 330px;
     border-radius: 5px; }
   .slide-2__icon-big {
     margin: 0 0 30px 0; }
@@ -7230,16 +7257,30 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   @media only screen and (max-width: 576px) {
     .slide-3 {
       background-image: url(../img/slide-3-BG-mobil.png); } }
 
-.slide-5__background {
-  background: white;
-  opacity: 0.85;
-  min-width: 572px;
-  border-radius: 5px; }
+.mobil-box {
+  background: red;
+  position: absolute;
+  bottom: 0;
+  background: #F5F5F6;
+  height: 50px;
+  width: 100%; }
+
+.slide-4 {
+  position: relative; }
+
+.slide-5 {
+  position: relative; }
+  .slide-5__background {
+    background: white;
+    opacity: 0.85;
+    min-width: 572px;
+    border-radius: 5px; }
 
 @media only screen and (max-width: 768px) {
   .textbox-big {
