@@ -7,10 +7,18 @@
     min-width: 572px;
     border-radius: 5px;
   }
+
+  &__icon {
+    margin-right: 50px;
+  }
 }
 
 .textbox-big {
   @media only screen and (max-width: 768px) {
     justify-content: center;
   }
+}
+
+footer {
+  background: #323c51;
 }

@@ -7055,7 +7055,10 @@ section {
     section {
       margin-bottom: 0; } }
 
-#red {
+footer {
+  height: 100%; }
+
+#red, #myDIV {
   height: auto; }
 
 #myDIV {
@@ -7200,7 +7203,9 @@ h4 {
   font-size: 11.65px;
   color: #ffffff;
   font-weight: 800;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px; }
 
 .slider-red-btn {
   background: #ff2e63;
@@ -7209,7 +7214,9 @@ h4 {
   font-size: 11.65px;
   color: #ffffff;
   font-weight: 800;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px; }
 
 .slider-blue-btn {
   background: #4b5aa0;
@@ -7218,10 +7225,20 @@ h4 {
   font-size: 11.65px;
   color: #ffffff;
   font-weight: 800;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px; }
 
 a {
   text-decoration: none !important; }
+
+.utalvany {
+  font-size: 25px;
+  font-weight: 700; }
+
+.footer-h4, .footer-h2 {
+  color: white;
+  font-size: 16px; }
 
 .slide-2 {
   background-image: url(../img/slide-2-BG.png);
@@ -7281,7 +7298,12 @@ a {
     opacity: 0.85;
     min-width: 572px;
     border-radius: 5px; }
+  .slide-5__icon {
+    margin-right: 50px; }
 
 @media only screen and (max-width: 768px) {
   .textbox-big {
     justify-content: center; } }
+
+footer {
+  background: #323c51; }

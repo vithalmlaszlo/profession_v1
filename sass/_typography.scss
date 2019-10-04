@@ -73,6 +73,8 @@ p {
   color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
 }
 
 .slider-red-btn {
@@ -83,6 +85,8 @@ p {
   color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
 }
 
 .slider-blue-btn {
@@ -93,8 +97,20 @@ p {
   color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
 }
 
 a {
   text-decoration: none !important;
+}
+
+.utalvany {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footer-h4, .footer-h2 {
+  color: white;
+  font-size: 16px;
 }
