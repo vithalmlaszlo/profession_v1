@@ -6,16 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800&display=swap" rel="stylesheet">
-        <!--     <link rel="stylesheet" href="./animate.css">-->
-        <link rel="stylesheet" href="./css/normalize.css">
-        <link rel="stylesheet" href="./css/animate.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
 </head>
-
-
 
 <body>
     <!-- HEADER -->
@@ -24,7 +19,7 @@
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-3 col-6">
-                        <a href="#" class="header__logo "><img class="" src="/img/profession-logo.png"
+                        <a href="#" class="header__logo "><img class="" src="./img/profession-logo.png"
                                 alt="profession-logo" /></a>
                     </div>
                     <!-- MODUL START DESKTOP -->
@@ -65,7 +60,7 @@
             <div class="row d-flex textbox">
                 <div class="slide-2__background text-center p-5 wow fadeInLeft">
 
-                    <img class="slide-2__icon-big" src="./img/icon-big-ok.png" alt="">
+                    <img class="slide-2__icon-big mb-4" src="./img/icon-big-ok.png" alt="">
                     <h2 class="text-left  mb-4">Budapestre költöznél?</h2>
                     <div class="d-flex align-items-center">
                         <img class="slide-2__icon-small mr-4" src="./img/icon-small.png" alt="">
@@ -90,7 +85,6 @@
             </div>
         </div> <!-- SLIDE 2 END -->
     </section>
-
 
     <!-- START SLIDE 3 -->
     <section id="blue" class="slide-3 d-flex align-items-center justify-content-center flex-column">
@@ -179,7 +173,6 @@
 
     </section> <!-- SLIDE 3 END -->
 
-
     <!-- SLIDE 4 START -->
     <section id="yellow" class="slide-4 d-flex align-items-center justify-content-center">
         <div class="container">
@@ -258,7 +251,7 @@
             </div>
             <!-- MOBILE BOX -->
             <div class="row d-flex d-md-none textbox">
-                <div class="slide-2__background text-center m-5  p-5" wow fadeInLeft>
+                <div class="slide-2__background text-center m-5  p-5 wow fadeInLeft">
 
                     <img class="slide-2__icon-big" src="./img/icon-big-write.png" alt="">
                     <!-- <h2 class="text-md-left text-center mb-3">Iratkozz fel!</h2> -->
@@ -332,15 +325,15 @@
                     <h4 class="font-weight-light mb-5 text-center text-md-left">A nyertes a sorsolást követően a Cordia
                         aktuális kínálatából saját maga választhatja ki a lakást, maximum 280.000Ft/hó értékben amely
                         tartalmazza a közmű által kibocsájtott rezsit is!</h4>
-                    <div class="d-flex mb-5 justify-content-center justify-content-md-start">
-                        <img class="slide-5__icon" src="./img/szoba.png" alt="">
-                        <img class="slide-5__icon" src="./img/alap.png" alt="">
-                        <img src="./img/new.png" alt="">
-                    </div>
-                    <div class="d-flex mb-5 justify-content-center justify-content-md-start">
+                    <div class="d-flex mb-4 justify-content-between">
                         <img class="slide-5__icon" src="./img/szoba.png" alt="">
                         <img class="slide-5__icon" src="./img/alap.png" alt="">
                         <img class="" src="./img/new.png" alt="">
+                    </div>
+                    <div class="d-flex mb-5 justify-content-between">
+                        <img class="ml-3" src="./img/berlet.png" alt="">
+                        <img class=""  src="./img/rezsi.png" alt="">
+                        <img class="" src="./img/butorozott.png" alt="">
                     </div>
 
                 </div>
@@ -407,6 +400,7 @@
         </div>
     </section> <!-- INFO END -->
 
+    <!-- FOOTER START-->
     <footer class="py-5">
         <div class="container">
             <div class="row">
@@ -425,23 +419,12 @@
                   <img class="img-fluid" src="./img/facebook.png" alt="">
                 </div>
             </div>
-            <div class="row d-md-none text-center">
+            <div class="col-12 d-md-none text-center">
                 <h2 class="footer-h2 text-center">Profession Kft.</h2>
                 <h4 class="footer-h4  text-center">1123 Budapest, Nagyenyed u. 8-14.</h4>
             </div>
         </div>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
+    </footer> <!-- FOOTER END -->
 
 
     <script src="./js/jquery-3.3.1.min.js"></script>
@@ -454,7 +437,7 @@
     <script src="./js/wow.min.js"></script>
     <script src="./js/main.js"></script>
 
-   <script>
+    <script>
         new WOW().init();
     </script>
 
@@ -469,7 +452,5 @@
             }
         }
     </script>
-
 </body>
-
 </html>
