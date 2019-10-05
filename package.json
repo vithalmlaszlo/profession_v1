@@ -1,11 +1,11 @@
 {
   "name": "sport-web",
   "version": "1.0.0",
-  "description": "SPORT_WEB",
+  "description": "Profession-V1",
   "main": "index.js",
   "scripts": {
     "watch.sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
+    "devserver": "live-server --browser='Google Chrome'",
     "start": "npm-run-all --parallel devserver watch.sass",
     
     "compile.sass": "node-sass sass/main.scss css/style.comp.css",

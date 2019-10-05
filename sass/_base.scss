@@ -2,82 +2,43 @@
                         MEDIA-QUERIES
 =================================================================*/
 html {
-  font-size: 62.5%; 
+  font-size: 62.5%; //1 rem = 10px; 10px/16px =62.5%;
 
-  
+  @media only screen and (max-width: 768px) {
+    font-size: 55%;
+  }
+
+  @media only screen and (max-width: 576px) {
+    font-size: 50%;
+  }
 }
 
 /* ==============================================================
                         BASIC ++
 =================================================================*/
 /* clear right white space on mobile view */
-html,body{
-    margin: 0px;
-    padding: 0px;
-    overflow-x: visible; 
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
 
-    @media only screen and (max-width: 576px) {
-      overflow-x: hidden; 
-    }
-}  
+  @media only screen and (max-width: 576px) {
+    overflow-x: hidden;
+  }
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
-    font-size: 16px;
-
-} 
-
-#pink {
-  height: 100vh;
-    margin-bottom: 50px;
+  font-size: 1.6rem;
+  color: #323C51;
 }
 
 section {
   height: 100vh;
   margin-bottom: 50px;
   @media only screen and (max-width: 768px) {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 }
-
-footer {
-  height: 100%;
-}
-
-#red, #myDIV {
- height: auto;
-}
-
-#myDIV {
-  display: none;
-  margin-top:100px;
-  padding-top: 90px;
-}
-  
-  .slide-4 {
-    background-image: url(../img/slide-4-BG.png);
-    background-position: right, center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-
-    @media only screen and (max-width: 576px) {
-      background-image:url(../img/slide-4-BG-mobil.png) 
- }
-    
-  }
-  
-  .slide-5 {
-    background-image: url(../img/slide-5-BG.png);
-    background-position: right, center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-
-    @media only screen and (max-width: 576px) {
-      background-image:url(../img/slide-5-BG-mobil.png) 
- }
-  }

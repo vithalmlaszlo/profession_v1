@@ -7026,27 +7026,32 @@ a.text-dark:hover, a.text-dark:focus {
 =================================================================*/
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 55%; } }
+  @media only screen and (max-width: 576px) {
+    html {
+      font-size: 50%; } }
 
 /* ==============================================================
                         BASIC ++
 =================================================================*/
 /* clear right white space on mobile view */
-html, body {
+html,
+body {
   margin: 0px;
   padding: 0px;
   overflow-x: visible; }
   @media only screen and (max-width: 576px) {
-    html, body {
+    html,
+    body {
       overflow-x: hidden; } }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 16px; }
-
-#pink {
-  height: 100vh;
-  margin-bottom: 50px; }
+  font-size: 1.6rem;
+  color: #323C51; }
 
 section {
   height: 100vh;
@@ -7054,39 +7059,6 @@ section {
   @media only screen and (max-width: 768px) {
     section {
       margin-bottom: 0; } }
-
-footer {
-  height: 100%; }
-
-#red, #myDIV {
-  height: auto; }
-
-#myDIV {
-  display: none;
-  margin-top: 100px;
-  padding-top: 90px; }
-
-.slide-4 {
-  background-image: url(../img/slide-4-BG.png);
-  background-position: right, center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%; }
-  @media only screen and (max-width: 576px) {
-    .slide-4 {
-      background-image: url(../img/slide-4-BG-mobil.png); } }
-
-.slide-5 {
-  background-image: url(../img/slide-5-BG.png);
-  background-position: right, center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%; }
-  @media only screen and (max-width: 576px) {
-    .slide-5 {
-      background-image: url(../img/slide-5-BG-mobil.png); } }
 
 /* ========================================================
                       HEADER
@@ -7143,42 +7115,43 @@ footer {
   margin: 0; }
 
 h1 {
-  font-size: 20px;
-  font-weight: 700; }
-  @media only screen and (max-width: 576px) {
-    h1 {
-      font-size: 16px; } }
+  font-size: 2rem;
+  font-weight: 700;
+  /*  @media only screen and (max-width: 576px) {
+    font-size: 16px;
+  } */ }
 
 h2 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
-  color: #4a58a2; }
-  @media only screen and (max-width: 576px) {
-    h2 {
-      font-size: 16px; } }
+  color: #4a58a2;
+  /* @media only screen and (max-width: 576px) {
+    font-size: 16px;
+  } */ }
 
 h3 {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.7rem;
   text-transform: uppercase;
-  margin-bottom: 0; }
-  @media only screen and (max-width: 576px) {
-    h3 {
-      font-size: 16px; } }
+  margin-bottom: 0;
+  /* @media only screen and (max-width: 576px) {
+    font-size: 16px; 
+  } */ }
 
 .h3-small {
   font-size: 13px; }
 
 h4 {
-  font-size: 20px;
-  font-weight: 400; }
-  @media only screen and (max-width: 576px) {
-    h4 {
-      font-size: 16px; } }
+  font-size: 2rem;
+  font-weight: 400;
+  /* @media only screen and (max-width: 576px) {
+    font-size: 16px;
+  } */ }
 
-@media only screen and (max-width: 576px) {
-  p {
-    font-size: 14px; } }
+p {
+  /*   @media only screen and (max-width: 576px) {
+    font-size: 14px;
+  } */ }
 
 .p-light {
   font-size: 10px; }
@@ -7200,7 +7173,7 @@ h4 {
   background: #4b5aa0;
   width: 180px;
   height: 50px;
-  font-size: 11.65px;
+  font-size: 1.165rem;
   color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
@@ -7239,6 +7212,10 @@ a {
 .footer-h4, .footer-h2 {
   color: white;
   font-size: 16px; }
+
+#pink {
+  height: 100vh;
+  margin-bottom: 50px; }
 
 .slide-2 {
   background-image: url(../img/slide-2-BG.png);
@@ -7292,6 +7269,18 @@ a {
   position: relative; }
 
 .slide-5 {
+  background-image: url(../img/slide-5-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative; }
+  @media only screen and (max-width: 576px) {
+    .slide-5 {
+      background-image: url(../img/slide-5-BG-mobil.png); } }
+
+.slide-5 {
   position: relative; }
   .slide-5__background {
     background: white;
@@ -7307,3 +7296,29 @@ a {
 
 footer {
   background: #323c51; }
+
+/* ==============================================================
+                        CONTENT OPEN  +  INFO 
+=================================================================*/
+#red,
+#myDIV {
+  height: auto; }
+
+#myDIV {
+  display: none;
+  margin-top: 100px;
+  padding-top: 90px; }
+
+footer {
+  height: 100%; }
+
+.slide-4 {
+  background-image: url(../img/slide-4-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%; }
+  @media only screen and (max-width: 576px) {
+    .slide-4 {
+      background-image: url(../img/slide-4-BG-mobil.png); } }

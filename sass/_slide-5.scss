@@ -1,4 +1,18 @@
 .slide-5 {
+  background-image: url(../img/slide-5-BG.png);
+  background-position: right, center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+  @media only screen and (max-width: 576px) {
+    background-image:url(../img/slide-5-BG-mobil.png) 
+}
+}
+
+.slide-5 {
   position: relative;
 
   &__background {
@@ -21,4 +35,18 @@
 
 footer {
   background: #323c51;
+}
+
+/* ==============================================================
+                        CONTENT OPEN  +  INFO 
+=================================================================*/
+#red,
+#myDIV {
+  height: auto;
+}
+
+#myDIV {
+  display: none;
+  margin-top: 100px;
+  padding-top: 90px;
 }

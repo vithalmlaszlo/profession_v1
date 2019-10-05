@@ -1,0 +1,12 @@
+.slide-4 {
+    background-image: url(../img/slide-4-BG.png);
+    background-position: right, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  
+    @media only screen and (max-width: 576px) {
+      background-image: url(../img/slide-4-BG-mobil.png);
+    }
+  }
