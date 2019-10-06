@@ -23,7 +23,14 @@
   }
 
   &__icon {
-   margin-right: 50px;
+    transform: scale(0.5);
+    margin-bottom: -2rem;
+  }
+
+  &__p {
+    font-size: 1.125rem;
+    color: #4a58a2;
+
   }
 }
 
