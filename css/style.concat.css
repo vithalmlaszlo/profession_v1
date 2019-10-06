@@ -7070,7 +7070,8 @@ section {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  position: relative; }
   @media only screen and (max-width: 576px) {
     .header {
       background-image: url(../img/var-egy-lakas-mobil.png); } }
@@ -7108,6 +7109,16 @@ section {
 
 .proba-circle-3-right {
   margin-right: 68px !important; }
+
+.header__bottom--p {
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500; }
+
+.bottom-up {
+  bottom: 6rem; }
 
 .proba, .proba-2, .proba-3 {
   transition: all 0.3s;
@@ -7274,7 +7285,11 @@ a {
     min-width: 572px;
     border-radius: 5px; }
   .slide-5__icon {
-    margin-right: 50px; }
+    transform: scale(0.5);
+    margin-bottom: -2rem; }
+  .slide-5__p {
+    font-size: 1.125rem;
+    color: #4a58a2; }
 
 @media only screen and (max-width: 768px) {
   .textbox-big {
