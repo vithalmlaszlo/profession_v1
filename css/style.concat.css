@@ -7064,7 +7064,7 @@ section {
                       HEADER
   ========================================================*/
 .header {
-  background-image: url(../img/var-egy-lakas.png);
+  background-image: url(../img/var-egy-lakas.webp);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7074,7 +7074,7 @@ section {
   position: relative; }
   @media only screen and (max-width: 576px) {
     .header {
-      background-image: url(../img/var-egy-lakas-mobil.png); } }
+      background-image: url(../img/var-egy-lakas-mobil.webp); } }
 
 .header__logo img {
   height: 30px;
@@ -7215,7 +7215,7 @@ a {
   margin-bottom: 50px; }
 
 .slide-2 {
-  background-image: url(../img/slide-2-BG.png);
+  background-image: url(../img/slide-2-BG.webp);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7224,7 +7224,7 @@ a {
   position: relative; }
   @media only screen and (max-width: 576px) {
     .slide-2 {
-      background-image: url(../img/slide-2-BG-mobil.png); } }
+      background-image: url(../img/slide-2-BG-mobil.webp); } }
   .slide-2__background {
     background: white;
     opacity: 0.85;
@@ -7243,7 +7243,7 @@ a {
   margin-left: 40px; }
 
 .slide-3 {
-  background-image: url(../img/slide-3-BG.png);
+  background-image: url(../img/slide-3-BG.webp);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7252,7 +7252,7 @@ a {
   position: relative; }
   @media only screen and (max-width: 576px) {
     .slide-3 {
-      background-image: url(../img/slide-3-BG-mobil.png); } }
+      background-image: url(../img/slide-3-BG-mobil.webp); } }
 
 .mobil-box {
   background: red;
@@ -7266,7 +7266,7 @@ a {
   position: relative; }
 
 .slide-5 {
-  background-image: url(../img/slide-5-BG.png);
+  background-image: url(../img/slide-5-BG.webp);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7275,7 +7275,7 @@ a {
   position: relative; }
   @media only screen and (max-width: 576px) {
     .slide-5 {
-      background-image: url(../img/slide-5-BG-mobil.png); } }
+      background-image: url(../img/slide-5-BG-mobil.webp); } }
 
 .slide-5 {
   position: relative; }
@@ -7314,7 +7314,7 @@ footer {
   height: 100%; }
 
 .slide-4 {
-  background-image: url(../img/slide-4-BG.png);
+  background-image: url(../img/slide-4-BG.webp);
   background-position: right, center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7322,7 +7322,7 @@ footer {
   width: 100%; }
   @media only screen and (max-width: 576px) {
     .slide-4 {
-      background-image: url(../img/slide-4-BG-mobil.png); } }
+      background-image: url(../img/slide-4-BG-mobil.webp); } }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
