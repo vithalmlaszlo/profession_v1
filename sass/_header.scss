@@ -2,7 +2,7 @@
                       HEADER
   ========================================================*/
   .header{
-    background-image: url(../img/var-egy-lakas.png);
+    background-image: url(../img/var-egy-lakas.webp);
     background-position: right, center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     position: relative;
 
     @media only screen and (max-width: 576px) {
-      background-image:url(../img/var-egy-lakas-mobil.png) 
+      background-image:url(../img/var-egy-lakas-mobil.webp) 
  }
 
   }
